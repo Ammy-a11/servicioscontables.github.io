@@ -1,0 +1,67 @@
+/*
+Codigo CSS productoa.css
+*/
+*{
+	box-sizing: border-box;
+}
+
+.separador1{
+	height: 10px;
+	clear: both;
+}
+.separador2{
+	width: 2%;
+	height: 1px;
+	float: left;
+}
+.main{
+	height: 800PX;
+}
+
+.centro{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-style: solid;
+	border-radius: 20px;
+}
+
+
+img{
+	transition: all 0.5s linear;
+	border-style: solid;
+	border-color: black;
+}
+
+img:hover{
+	transform: scale(0.9);
+	border-radius: 30px;
+}
+.main img{
+	width: 49%;
+	float:left; 
+}
+body{
+	background-image: url(img/prod.jpg);
+	background-position: center
+	center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+a{
+			font: bold 20px Agency FB;
+			text-decoration: none;
+			background-color:#3498DB; 
+			color: #f2f2f2;
+			border:4px solid #3498DB;
+			padding:10px 20px 10px 20px;
+			border-radius: 20px;
+		}
+
+a:hover{
+			background:#f2f2f2;
+			color: #000000;
+		}

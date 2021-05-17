@@ -1,0 +1,25 @@
+/*
+codigo CSS fondo.css
+*/
+body{
+	background-image: 
+	url(img/conta.png); 
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 1380px;
+	background-attachment: fixed;
+}
+a{
+			font: bold 20px Agency FB;
+			text-decoration: none;
+			background-color:#f2f2f2; 
+			color: #000000;
+			border:4px solid #f2f2f2;
+			padding:10px 20px 10px 20px;
+			border-radius: 20px;
+		}
+
+a:hover{
+			background:#00FFF7;
+			color: #000000;
+		}

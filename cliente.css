@@ -1,0 +1,26 @@
+
+/*
+codigo CSS cliente.css
+*/
+
+body{
+			background:url(img/oficina.jpg);
+			background-repeat: no-repeat;
+			background-size: 1410px;
+			
+		}
+
+a{
+            font: bold 20px Agency FB;
+            text-decoration: none;
+            background-color:#FDFEFE;  
+            color: #000000;
+            border:3px solid #FDFEFE;
+            padding:10px 20px 10px 20px;
+            border-radius: 20px;
+        }
+
+a:hover{
+            background:#76D7C4 ;
+            color:#FDFEFE;
+        }
